@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Adriana Ciceu — Front-End Developer & Web Designer</title>
+<meta name="description" content="Portfolio of Adriana Ciceu — Front-end developer and web designer crafting clean, responsive, accessible web experiences." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<header id="site-header">
+  <nav class="nav-inner">
+    <a href="#home" class="brand" aria-label="Adriana Ciceu — Home">
+      <span class="brand-badge"><span class="brand-initials">AC</span></span>
+      <span class="brand-text">
+        <span class="brand-name">Adriana Ciceu</span>
+        <span class="brand-role">Front-End &amp; Web Design</span>
+      </span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#portfolio" class="btn btn-primary nav-cta">Hire me</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="nav-mobile" id="navMobile">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="chip">✦ Available for new projects</span>
+      <p class="kicker">Hi, I'm Adriana 👋</p>
+      <h1 class="display">
+        <span class="text-gradient">Front-End Developer</span><br />
+        <span>&amp; Web Designer</span>
+      </h1>
+      <p class="lead">
+        My coding journey began <strong>two and a half years ago</strong>,
+        and from that very first line of code I knew I was finally stepping
+        into my dream career. I have a strong eye for <strong>design</strong>
+        and a genuine passion for building <strong>clean</strong>,
+        <strong>responsive</strong>, and <strong>accessible</strong> web
+        experiences. As an <strong>AI enthusiast</strong>, I love bridging
+        design and functionality to craft thoughtful, user-centred interfaces.
+        I'm also a <strong>Certified AI-Powered Instructional Design Professional</strong>.
+      </p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-portrait">
+      <div class="portrait-glow"></div>
+      <div class="portrait-frame">
+        <img src="assets/adriana-portrait.jpg" alt="Adriana — Front-end developer and web designer" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section">
+  <div class="container">
+    <p class="eyebrow">01 / Portfolio</p>
+    <h2 class="section-title">Selected <span class="text-gradient">design work</span></h2>
+    <p class="section-lead">A handful of recent interfaces I've designed and front-end coded — from concept and visual direction to the final shipped UI.</p>
+
+    <div class="projects">
+      <a class="project" href="https://adrianaa911.github.io/Astroid_Game/" target="_blank" rel="noopener noreferrer">
+        <div class="project-media">
+          <img src="assets/project-asteroid.jpg" alt="Asteroid Game — HTML5 Canvas · JavaScript" />
+        </div>
+        <div class="project-body">
+          <p class="project-tag">Featured · HTML5 Canvas · JavaScript</p>
+          <h3>Asteroid Game ↗</h3>
+          <p>A classic arcade-style asteroid shooter built with HTML5 Canvas and vanilla JavaScript. Features real-time animations, collision detection, score tracking, and responsive controls.</p>
+          <p class="controls-label">How to play</p>
+          <ul class="controls">
+            <li><kbd>Space</kbd><span>Shoot</span></li>
+            <li><kbd>W</kbd><span>Move forward</span></li>
+            <li><kbd>A</kbd><span>Move left</span></li>
+            <li><kbd>D</kbd><span>Move right</span></li>
+          </ul>
+        </div>
+      </a>
+
+      <a class="project" href="https://adrianaa911.github.io/Nike_product_Card/" target="_blank" rel="noopener noreferrer">
+        <div class="project-media project-grid-2">
+          <img src="assets/project-nike-yellow.png" alt="Nike product card — yellow variant" />
+          <img src="assets/project-nike-red.png" alt="Nike product card — red variant" />
+        </div>
+        <div class="project-body">
+          <p class="project-tag">Featured · HTML · CSS · JavaScript</p>
+          <h3>Nike Product Card ↗</h3>
+          <p>An interactive Nike shoe product card with smooth animations, visual effects, and transitions. Users can switch between two color variants of the product for a dynamic shopping preview.</p>
+        </div>
+      </a>
+
+      <a class="project" href="https://adrianaa911.github.io/FitnessFit" target="_blank" rel="noopener noreferrer">
+        <div class="project-media">
+          <div class="slideshow" data-slideshow>
+            <img src="assets/project-fitnessfit-1.png" alt="Fitness Fit — screen 1" class="active" />
+            <img src="assets/project-fitnessfit-2.png" alt="Fitness Fit — screen 2" />
+            <img src="assets/project-fitnessfit-3.png" alt="Fitness Fit — screen 3" />
+            <img src="assets/project-fitnessfit-4.png" alt="Fitness Fit — screen 4" />
+            <img src="assets/project-fitnessfit-5.png" alt="Fitness Fit — screen 5" />
+            <img src="assets/project-fitnessfit-6.png" alt="Fitness Fit — screen 6" />
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-tag">Featured · HTML · CSS</p>
+          <h3>Fitness Fit ↗</h3>
+          <p>A modern fitness landing page with an intuitive, easy-to-navigate interface that helps users find the ideal routine, plan, or program tailored to their needs.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section section-alt">
+  <div class="container narrow">
+    <p class="eyebrow">02 / About</p>
+    <h2 class="section-title">A <span class="text-gradient">designer's eye</span>, a developer's hands.</h2>
+    <div class="prose">
+      <p>My path here was anything but linear. I studied <strong>ballet dancing</strong> at an art school, graduated in <strong>Communication and Public Relations</strong>, and eventually chose <strong>software development</strong> as my main career — because the web finally let me bring all those creative worlds together.</p>
+      <p>Today I focus on <strong>front-end development</strong> and <strong>web design</strong> — translating brand and user needs into clean layouts, considered type, and interfaces that feel as good as they look.</p>
+      <p>I obsess over micro-interactions, spend too long choosing the perfect easing curve, and genuinely believe great products start with empathy for the user.</p>
+      <p>I'm also an <strong>AI enthusiast</strong>. A few months ago I completed an <strong>AI Instructional Design course</strong> and I'm now a <strong>Certified AI-Powered Instructional Design Professional</strong> — I love exploring how AI can shape better learning experiences and smarter products.</p>
+      <p>When I'm offline, you'll find me at the <strong>gym</strong>, exploring <strong>photography</strong> and <strong>video editing</strong>, making <strong>art</strong>, <strong>hiking</strong> mountain trails, or moving through <strong>ballet</strong> and <strong>yoga</strong>.</p>
+    </div>
+    <div class="stats">
+      <div><div class="stat-num text-gradient">2+</div><div class="stat-label">Years</div></div>
+      <div><div class="stat-num text-gradient">40+</div><div class="stat-label">Projects</div></div>
+      <div><div class="stat-num text-gradient">5+</div><div class="stat-label">Clients</div></div>
+    </div>
+  </div>
+
+  <div class="container hobbies-wrap">
+    <p class="eyebrow">Off the clock</p>
+    <h3 class="sub-title">A few things I <span class="text-gradient">love</span></h3>
+    <div class="marquee">
+      <div class="marquee-track">
+        <!-- duplicated for seamless scroll -->
+        <figure><img src="assets/hobby-gym.jpg" alt="Gym" /><figcaption><span>Hobby</span><p>Gym</p></figcaption></figure>
+        <figure><img src="assets/hobby-photography.jpg" alt="Photography" /><figcaption><span>Hobby</span><p>Photography</p></figcaption></figure>
+        <figure><img src="assets/hobby-video.jpg" alt="Video editing" /><figcaption><span>Hobby</span><p>Video editing</p></figcaption></figure>
+        <figure><img src="assets/hobby-art.jpg" alt="Art" /><figcaption><span>Hobby</span><p>Art</p></figcaption></figure>
+        <figure><img src="assets/hobby-hiking.jpg" alt="Hiking" /><figcaption><span>Hobby</span><p>Hiking</p></figcaption></figure>
+        <figure><img src="assets/hobby-ballet.jpg" alt="Ballet" /><figcaption><span>Hobby</span><p>Ballet</p></figcaption></figure>
+        <figure><img src="assets/hobby-yoga.jpg" alt="Yoga" /><figcaption><span>Hobby</span><p>Yoga</p></figcaption></figure>
+        <figure aria-hidden="true"><img src="assets/hobby-gym.jpg" alt="" /><figcaption><span>Hobby</span><p>Gym</p></figcaption></figure>
+        <figure aria-hidden="true"><img src="assets/hobby-photography.jpg" alt="" /><figcaption><span>Hobby</span><p>Photography</p></figcaption></figure>
+        <figure aria-hidden="true"><img src="assets/hobby-video.jpg" alt="" /><figcaption><span>Hobby</span><p>Video editing</p></figcaption></figure>
+        <figure aria-hidden="true"><img src="assets/hobby-art.jpg" alt="" /><figcaption><span>Hobby</span><p>Art</p></figcaption></figure>
+        <figure aria-hidden="true"><img src="assets/hobby-hiking.jpg" alt="" /><figcaption><span>Hobby</span><p>Hiking</p></figcaption></figure>
+        <figure aria-hidden="true"><img src="assets/hobby-ballet.jpg" alt="" /><figcaption><span>Hobby</span><p>Ballet</p></figcaption></figure>
+        <figure aria-hidden="true"><img src="assets/hobby-yoga.jpg" alt="" /><figcaption><span>Hobby</span><p>Yoga</p></figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="container">
+    <p class="eyebrow">03 / Skills</p>
+    <h2 class="section-title">Tools I <span class="text-gradient">design &amp; build with</span></h2>
+    <p class="section-lead">My everyday toolkit — from visual design and prototyping in Figma and Webflow to crafting clean, accessible front-end code.</p>
+    <div class="skills-grid">
+      <div class="skill"><span class="skill-icon">&lt;/&gt;</span><span>HTML</span></div>
+      <div class="skill"><span class="skill-icon">◈</span><span>CSS</span></div>
+      <div class="skill"><span class="skill-icon">{ }</span><span>JavaScript</span></div>
+      <div class="skill"><span class="skill-icon">Py</span><span>Python</span></div>
+      <div class="skill"><span class="skill-icon">▤</span><span>MySQL</span></div>
+      <div class="skill"><span class="skill-icon">❀</span><span>MongoDB</span></div>
+      <div class="skill"><span class="skill-icon">⌬</span><span>Node.js</span></div>
+      <div class="skill"><span class="skill-icon">⚛</span><span>React</span></div>
+      <div class="skill"><span class="skill-icon">⎇</span><span>Git</span></div>
+      <div class="skill"><span class="skill-icon">🌐</span><span>Webflow</span></div>
+      <div class="skill"><span class="skill-icon">✎</span><span>Figma</span></div>
+      <div class="skill"><span class="skill-icon">⇄</span><span>API</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section-alt">
+  <div class="container narrow center">
+    <p class="eyebrow">04 / Contact</p>
+    <h2 class="section-title">Let's <span class="text-gradient">build something</span> together</h2>
+    <p class="section-lead">Have a project in mind, a role to fill, or just want to say hi? I'd love to hear from you.</p>
+    <a href="mailto:adryanaaciceu@gmail.com" class="btn btn-primary contact-cta">✉ adryanaaciceu@gmail.com ↗</a>
+    <div class="socials">
+      <a href="https://github.com/Adrianaa911" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social">GH</a>
+      <a href="https://www.linkedin.com/in/adriana-ciceu-28a292230/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social">in</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#home" class="brand">
+        <span class="brand-badge"><span class="brand-initials">AC</span></span>
+        <span class="brand-text"><span class="brand-name text-gradient">Adriana Ciceu</span></span>
+      </a>
+      <p class="footer-about">Building thoughtful, fast, and beautiful web experiences. Always open to interesting collaborations.</p>
+    </div>
+    <div>
+      <h4>Navigate</h4>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <div class="socials small">
+        <a href="https://github.com/Adrianaa911" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social">GH</a>
+        <a href="https://www.linkedin.com/in/adriana-ciceu-28a292230/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social">in</a>
+        <a href="mailto:adryanaaciceu@gmail.com" aria-label="Email" class="social">✉</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Adriana Ciceu portfolio. All rights reserved.</p>
+    <p>Crafted with <span style="color:hsl(38 86% 62%)">♥</span> using HTML &amp; CSS.</p>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav
+  const t = document.getElementById('navToggle');
+  const m = document.getElementById('navMobile');
+  t.addEventListener('click', () => {
+    const open = m.classList.toggle('open');
+    t.setAttribute('aria-expanded', open);
+  });
+  m.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { m.classList.remove('open'); t.setAttribute('aria-expanded', false); }));
+
+  // Header scroll state
+  const h = document.getElementById('site-header');
+  const onScroll = () => h.classList.toggle('scrolled', window.scrollY > 20);
+  onScroll(); window.addEventListener('scroll', onScroll);
+
+  // Slideshow
+  document.querySelectorAll('[data-slideshow]').forEach(el => {
+    const imgs = el.querySelectorAll('img');
+    let i = 0;
+    setInterval(() => {
+      imgs[i].classList.remove('active');
+      i = (i + 1) % imgs.length;
+      imgs[i].classList.add('active');
+    }, 3500);
+  });
+</script>
+</body>
+</html>
